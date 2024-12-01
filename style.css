@@ -1,18 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Figtree&display=swap');
+@import url('https://fonts.googleapis.com/css3?family=Figtree&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     background-color: hsl(47, 88%, 63%);
     font-family: 'Figtree', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 main {
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
 }
 
 p {
